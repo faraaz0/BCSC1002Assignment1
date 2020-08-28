@@ -56,4 +56,8 @@ public class Student {
     public void setBooks(Book[] books) {
         this.books = books;
     }
+
+    public void addNewBook(String bookName) {
+        System.out.println(bookName + " has been successfully issued.");
+    }
 }
