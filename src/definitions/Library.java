@@ -6,10 +6,6 @@
  * */
 package definitions;
 
-import java.util.Arrays;
-
-import java.lang.String;
-
 public class Library {
     private Book[] books ;
 
@@ -28,8 +24,13 @@ public class Library {
         this.books = books;
     }
 
-    public void addReturnedBook(String bookName){
+    public void addReturnedBook(String bookName) {
         System.out.println(bookName + " has been successfully returned.");
+    }
+
+    public String toString() {
+        return String.format(
+                "Books List: %s", getBooks());
     }
 
 }
