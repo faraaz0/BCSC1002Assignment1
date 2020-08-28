@@ -6,6 +6,8 @@
  * */
 package execution;
 
+import definitions.Student;
+
 import java.util.Scanner;
 
 public class FrontDesk {
@@ -17,6 +19,7 @@ public class FrontDesk {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int userInput;
+        Student student = new Student("Md Faraaz Siddiqui", 191500454, 3);
 
     }
 }
