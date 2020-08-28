@@ -18,4 +18,14 @@ public class Library {
         this.books = new Book[1000];
     }
 
+    public Book[] getBooks() {
+
+        return books;
+    }
+
+    public void setBooks(Book[] books) {
+
+        this.books = books;
+    }
+
 }
