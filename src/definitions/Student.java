@@ -18,4 +18,14 @@ public class Student {
         this.numberOfBooksIssued = numberOfBooksIssued;
         this.books = new Book[numberOfBooksIssued];
     }
+
+    public String[] getNameOfTheStudent() {
+
+        return nameOfTheStudent;
+    }
+
+    public void setNameOfTheStudent(String[] nameOfTheStudent) {
+
+        this.nameOfTheStudent = nameOfTheStudent;
+    }
 }
