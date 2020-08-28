@@ -71,6 +71,10 @@ public class Student {
         }
     }
 
+    public void returnAnIssuedBook(String bookName) {
+        System.out.println(bookName + " has been successfully returned.");
+    }
+
     @Override
     public String toString() {
         return String.format(
