@@ -28,4 +28,14 @@ public class Student {
 
         this.nameOfTheStudent = nameOfTheStudent;
     }
+
+    public long getUniversityRollNumber() {
+
+        return universityRollNumber;
+    }
+
+    public void setUniversityRollNumber(long universityRollNumber) {
+
+        this.universityRollNumber = universityRollNumber;
+    }
 }
