@@ -66,4 +66,12 @@ public class Student {
             System.out.println(books);
         }
     }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Student Name: %s, University Roll Number: %l, Number Of Books Issued: %d, Name Of Books Issued By The Student: %d",
+                getNameOfTheStudent(), getUniversityRollNumber(), getNumberOfBooksIssued(), getBooks()
+        );
+    }
 }
