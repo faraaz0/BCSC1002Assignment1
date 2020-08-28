@@ -8,8 +8,6 @@ package definitions;
 
 import java.util.Objects;
 
-import java.lang.String;
-
 public class Book {
     private String bookName;
     private String authorName;
@@ -51,6 +49,7 @@ public class Book {
         this.bookISBNNumber = bookISBNNumber;
     }
 
+    @Override
     public String toString() {
         return String.format(
                 "Book Name: %s, Author Name: %s, ISBN Number: %s",

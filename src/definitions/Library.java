@@ -1,5 +1,5 @@
 /*  Created by IntelliJ IDEA.
- *  User: Divyansh Bhardwaj (dbc2201)
+ *  User: Md. Faraaz Siddiqui (faraaz0)
  *  Date: 21/08/20
  *  Time: 3:50 PM
  *  File Name : Library.java
@@ -30,6 +30,7 @@ public class Library {
         System.out.println(bookName + " has been successfully returned.");
     }
 
+    @Override
     public String toString() {
         return String.format(
                 "Books List: %s", getBooks());
