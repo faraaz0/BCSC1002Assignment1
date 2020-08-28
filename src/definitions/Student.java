@@ -60,4 +60,10 @@ public class Student {
     public void addNewBook(String bookName) {
         System.out.println(bookName + " has been successfully issued.");
     }
+
+    public void myIssuedBooks() {
+        for (Book books : books) {
+            System.out.println(books);
+        }
+    }
 }
