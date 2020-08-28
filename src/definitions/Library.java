@@ -13,4 +13,9 @@ import java.lang.String;
 public class Library {
     private Book[] books ;
 
+    public Library() {
+
+        this.books = new Book[1000];
+    }
+
 }
