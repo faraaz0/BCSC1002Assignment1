@@ -48,4 +48,12 @@ public class Student {
 
         this.numberOfBooksIssued = numberOfBooksIssued;
     }
+
+    public Book[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(Book[] books) {
+        this.books = books;
+    }
 }
