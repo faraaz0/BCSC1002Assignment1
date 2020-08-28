@@ -28,4 +28,8 @@ public class Library {
         this.books = books;
     }
 
+    public void addReturnedBook(String bookName){
+        System.out.println(bookName + " has been successfully returned.");
+    }
+
 }
