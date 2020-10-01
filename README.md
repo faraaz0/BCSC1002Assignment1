@@ -12,9 +12,9 @@ Every good university/college has a well-stocked library for the students. The s
  literature on topics/subjects that are crucial for their personal as well as professional development. But as the 
  number of students using the library increases, the task of keeping records get very difficult. In this assignment, we 
  are going to simulate that task by writing a piece of software. 
- <In this software we'll create some definition classes and execution classes.
- <We'll create as many objects as we can to improve the functioning of our Library.
- <We'll then call these objects in the execution classes to make a better library.
+ In this software we'll create some definition classes and execution classes.
+ We'll create as many objects as we can to improve the functioning of our Library.
+ We'll then call these objects in the execution classes to make a better library.
 
 
 
