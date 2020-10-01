@@ -11,7 +11,10 @@
 Every good university/college has a well-stocked library for the students. The students get access to a wide variety of
  literature on topics/subjects that are crucial for their personal as well as professional development. But as the 
  number of students using the library increases, the task of keeping records get very difficult. In this assignment, we 
- are going to simulate that task by writing a piece of software.
+ are going to simulate that task by writing a piece of software. 
+ < In this software we'll create some definition classes and execution classes.
+ < We'll create as many objects as we can to improve the functioning of our Library.
+ < We'll then call these objects in the execution classes to make a better library.
 
 
 
@@ -66,3 +69,4 @@ of a field, and a method; the name of a field should be a noun, and the name of 
 
 It is completely alright if you cannot implement the actual code for the methods, you can simple write a print 
 statement to represent that the methods are working, just like in the `Video Rental Inventory System` project.
+* Author - Naman Agarwal
